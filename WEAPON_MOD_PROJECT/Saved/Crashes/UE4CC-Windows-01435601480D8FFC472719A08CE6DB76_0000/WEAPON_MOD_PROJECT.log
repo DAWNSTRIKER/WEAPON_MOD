@@ -1,0 +1,925 @@
+﻿Log file open, 03/04/18 13:09:43
+LogInit:Display: Running engine for game: WEAPON_MOD_PROJECT
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1991960270) SRandInit(-1991960270).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.078650
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: 
+LogInit: Base directory: G:/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.03.04-02.09.44:151][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.04-02.09.44:151][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.04-02.09.44:174][  0]LogInit: Computer: THEBEAST
+[2018.03.04-02.09.44:174][  0]LogInit: User: petermiller
+[2018.03.04-02.09.44:174][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.03.04-02.09.44:174][  0]LogInit: High frequency timer resolution =3.914065 MHz
+[2018.03.04-02.09.44:174][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.03.04-02.09.44:174][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.04-02.09.44:174][  0]LogMemory: Process Physical Memory: 271.52 MB used, 271.52 MB peak
+[2018.03.04-02.09.44:174][  0]LogMemory: Process Virtual Memory: 261.02 MB used, 261.02 MB peak
+[2018.03.04-02.09.44:174][  0]LogMemory: Physical Memory: 5388.40 MB used,  10947.86 MB free, 16336.26 MB total
+[2018.03.04-02.09.44:174][  0]LogMemory: Virtual Memory: 621.84 MB used,  10947.86 MB free, 134217728.00 MB total
+[2018.03.04-02.09.44:215][  0]LogInit: Using OS detected language (en-GB).
+[2018.03.04-02.09.44:215][  0]LogInit: Using OS detected locale (en-GB).
+[2018.03.04-02.09.44:218][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.03.04-02.09.44:926][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.04-02.09.44:950][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.03.04-02.09.44:950][  0]LogD3D11RHI:       8053/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.03.04-02.09.44:951][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.04-02.09.44:951][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.04-02.09.44:951][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.04-02.09.44:954][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.04-02.09.44:954][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.04-02.09.44:954][  0]LogWindows: EnumDisplayDevices:
+[2018.03.04-02.09.44:954][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.03.04-02.09.44:954][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2018.03.04-02.09.44:954][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.03.04-02.09.44:955][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.03.04-02.09.44:955][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.03.04-02.09.44:955][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.03.04-02.09.44:955][  0]LogD3D11RHI:   Driver Version: 388.00 (internal:23.21.13.8800, unified:388.00)
+[2018.03.04-02.09.44:955][  0]LogD3D11RHI:      Driver Date: 10-12-2017
+[2018.03.04-02.09.44:955][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.03.04-02.09.44:967][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.04-02.09.44:988][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.03.04-02.09.45:078][  0]LogShaderCompilers: Guid format shader working directory is 7 characters bigger than the processId version (../../../../Unreal Projects/WEAPON_MOD_PROJECT/Intermediate/Shaders/WorkingDirectory/1944/).
+[2018.03.04-02.09.45:078][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/peter miller/AppData/Local/Temp/UnrealShaderWorkingDir/EA02B1F24D9CCE1326861A9ED725F36A/'.
+[2018.03.04-02.09.45:078][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.03.04-02.09.45:903][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.04-02.09.45:933][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.03.04-02.09.45:965][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.04-02.09.45:995][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.03.04-02.09.46:028][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.03.04-02.09.46:058][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.04-02.09.46:091][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.04-02.09.46:124][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.04-02.09.46:150][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.03.04-02.09.46:181][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.03.04-02.09.46:211][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.04-02.09.46:243][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.04-02.09.46:273][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.04-02.09.46:323][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.04-02.09.46:354][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.04-02.09.46:417][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.04-02.09.46:417][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.04-02.09.46:440][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.03.04-02.09.46:502][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.03.04-02.09.46:519][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.03.04-02.09.46:547][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.04-02.09.46:576][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.04-02.09.46:604][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.04-02.09.46:632][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.03.04-02.09.46:632][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.03.04-02.09.46:932][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.03.04-02.09.47:011][  0]LogDerivedDataCache: Loaded boot cache 0.08s 90MB C:/Users/peter miller/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.03.04-02.09.47:011][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/peter miller/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.03.04-02.09.47:011][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Unreal Projects/WEAPON_MOD_PROJECT/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.04-02.09.47:011][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.04-02.09.47:011][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Unreal Projects/WEAPON_MOD_PROJECT/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.04-02.09.47:011][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.04-02.09.47:024][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.04-02.09.47:037][  0]LogDerivedDataCache: Using Local data cache path C:/Users/peter miller/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.04-02.09.47:045][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.04-02.09.47:045][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.04-02.09.47:045][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.04-02.09.47:045][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.04-02.09.47:298][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.04-02.09.47:371][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.03.04-02.09.47:477][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.04-02.09.47:503][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.04-02.09.47:532][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.04-02.09.47:532][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.03.04-02.09.47:532][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.03.04-02.09.47:946][  0]LogNetVersion: WEAPON_MOD_PROJECT , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2519855051)
+[2018.03.04-02.09.47:993][  0]LogAssetRegistry: FAssetRegistry took 0.0245 seconds to start up
+[2018.03.04-02.09.48:030][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.023989 seconds
+[2018.03.04-02.09.48:034][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.03.04-02.09.48:034][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2018.03.04-02.09.48:034][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.04-02.09.48:064][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.04-02.09.49:641][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.04-02.09.49:668][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.04-02.09.50:048][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.04-02.09.50:305][  0]SourceControl: Info Source control is disabled
+[2018.03.04-02.09.50:328][  0]SourceControl: Info Source control is disabled
+[2018.03.04-02.09.50:355][  0]SourceControl: Info Source control is disabled
+[2018.03.04-02.09.50:383][  0]SourceControl: Info Source control is disabled
+[2018.03.04-02.09.50:779][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.04-02.09.51:145][  0]LogEngine: Initializing Engine...
+[2018.03.04-02.09.51:146][  0]LogHMD: Failed to initialize OpenVR with code 101
+[2018.03.04-02.09.51:312][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.04-02.09.51:312][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.04-02.09.51:391][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.04-02.09.51:402][  0]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.04-02.09.51:409][  0]LogInit: FAudioDevice initialized.
+[2018.03.04-02.09.51:442][  0]LogDerivedDataCache: Saved boot cache 0.03s 90MB C:/Users/peter miller/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.03.04-02.09.51:451][  0]LogInit: Texture streaming: Enabled
+[2018.03.04-02.09.51:499][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.04-02.09.51:618][  0]LogInit: Transaction tracking system initialized
+[2018.03.04-02.09.51:791][  0]BlueprintLog: New page: Editor Load
+[2018.03.04-02.09.52:288][  0]LocalizationService: Info Localization service is disabled
+[2018.03.04-02.09.52:667][  0]LogConsoleResponse:Display: 
+[2018.03.04-02.09.52:802][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.04-02.09.52:802][  0]LogCook:Display: Mobile HDR setting 1
+[2018.03.04-02.09.53:025][  0]LogFileCache: Scanning file cache for directory 'G:/Unreal Projects/WEAPON_MOD_PROJECT/Content/' took 0.03s
+[2018.03.04-02.09.53:372][  0]SourceControl: Info Source control is disabled
+[2018.03.04-02.09.53:372][  0]Cmd: MAP LOAD FILE="../../../../Unreal Projects/WEAPON_MOD_PROJECT/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.04-02.09.53:428][  0]LightingResults: New page: Lighting Build
+[2018.03.04-02.09.53:450][  0]MapCheck: New page: Map Check
+[2018.03.04-02.09.53:450][  0]LightingResults: New page: Lighting Build
+[2018.03.04-02.09.54:205][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.04-02.09.54:205][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Unreal Projects/WEAPON_MOD_PROJECT/Content/AI/FindPlayer.uasset.
+[2018.03.04-02.09.54:205][  0]LoadErrors:Error: Error /Game/AI/FindPlayer : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2018.03.04-02.09.54:205][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.04-02.09.54:205][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Unreal Projects/WEAPON_MOD_PROJECT/Content/AI/FindPlayer.uasset.
+[2018.03.04-02.09.54:205][  0]LoadErrors:Error: Error /Game/AI/FindPlayer : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2018.03.04-02.09.54:205][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.04-02.09.54:205][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Unreal Projects/WEAPON_MOD_PROJECT/Content/AI/FindPlayer.uasset.
+[2018.03.04-02.09.54:205][  0]LoadErrors:Error: Error /Game/AI/FindPlayer : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2018.03.04-02.09.54:205][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.04-02.09.54:205][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Unreal Projects/WEAPON_MOD_PROJECT/Content/AI/FindPlayer.uasset.
+[2018.03.04-02.09.54:205][  0]LoadErrors:Error: Error /Game/AI/FindPlayer : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2018.03.04-02.09.54:205][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.04-02.09.54:205][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Unreal Projects/WEAPON_MOD_PROJECT/Content/AI/FindPlayer.uasset.
+[2018.03.04-02.09.54:205][  0]LoadErrors:Error: Error /Game/AI/FindPlayer : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2018.03.04-02.09.54:205][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.04-02.09.54:205][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Unreal Projects/WEAPON_MOD_PROJECT/Content/AI_Z/PatrolAI_BT_Z.uasset.
+[2018.03.04-02.09.54:205][  0]LoadErrors:Error: Error /Game/AI_Z/PatrolAI_BT_Z : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2018.03.04-02.09.54:205][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.04-02.09.54:205][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Unreal Projects/WEAPON_MOD_PROJECT/Content/AI_Z/PatrolAI_BT_Z.uasset.
+[2018.03.04-02.09.54:205][  0]LoadErrors:Error: Error /Game/AI_Z/PatrolAI_BT_Z : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2018.03.04-02.09.54:205][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.04-02.09.54:205][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Unreal Projects/WEAPON_MOD_PROJECT/Content/AI_Z/PatrolAI_BT_Z.uasset.
+[2018.03.04-02.09.54:205][  0]LoadErrors:Error: Error /Game/AI_Z/PatrolAI_BT_Z : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2018.03.04-02.09.54:205][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.04-02.09.54:205][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Unreal Projects/WEAPON_MOD_PROJECT/Content/AI_Z/PatrolAI_BT_Z.uasset.
+[2018.03.04-02.09.54:205][  0]LoadErrors:Error: Error /Game/AI_Z/PatrolAI_BT_Z : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2018.03.04-02.09.54:205][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.04-02.09.54:205][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Unreal Projects/WEAPON_MOD_PROJECT/Content/AI_Z/PatrolAI_BT_Z.uasset.
+[2018.03.04-02.09.54:205][  0]LoadErrors:Error: Error /Game/AI_Z/PatrolAI_BT_Z : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2018.03.04-02.09.54:205][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.04-02.09.54:205][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Unreal Projects/WEAPON_MOD_PROJECT/Content/AI_Z/PatrolAI_BT_Z.uasset.
+[2018.03.04-02.09.54:205][  0]LoadErrors:Error: Error /Game/AI_Z/PatrolAI_BT_Z : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2018.03.04-02.09.54:205][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.04-02.09.54:205][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Unreal Projects/WEAPON_MOD_PROJECT/Content/AI_Z/PatrolAI_BT_Z.uasset.
+[2018.03.04-02.09.54:205][  0]LoadErrors:Error: Error /Game/AI_Z/PatrolAI_BT_Z : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2018.03.04-02.09.54:205][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.04-02.09.54:205][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../Unreal Projects/WEAPON_MOD_PROJECT/Content/AI_Z/PatrolAI_BT_Z.uasset.
+[2018.03.04-02.09.54:206][  0]LoadErrors:Error: Error /Game/AI_Z/PatrolAI_BT_Z : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2018.03.04-02.09.57:904][  0]LogBlueprint:Warning: [Compiler Ue4ASP_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2018.03.04-02.09.57:906][  0]LogBlueprint:Warning: [Compiler Ue4ASP_Character] Warning [0016.10] Compile of Ue4ASP_Character successful, but with 1 Warning(s) [in 4 ms] (/Game/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character)
+[2018.03.04-02.09.57:906][  0]LogBlueprint:Warning: [Compiler Ue4ASP_Character] Warning [0016.10] Compile of Ue4ASP_Character successful, but with 2 Warning(s) [in 0 ms] (/Game/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character)
+[2018.03.04-02.09.57:906][  0]LogBlueprint:Warning: [Compiler Ue4ASP_Character] Warning [0016.10] Compile of Ue4ASP_Character successful, but with 3 Warning(s) [in 0 ms] (/Game/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character)
+[2018.03.04-02.09.57:952][  0]LogBlueprint:Warning: [Compiler Ue4ASP_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2018.03.04-02.09.57:955][  0]LogBlueprint:Warning: [Compiler Ue4ASP_Character] Warning [0016.15] Compile of Ue4ASP_Character successful, but with 1 Warning(s) [in 4 ms] (/Game/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character)
+[2018.03.04-02.09.57:955][  0]LogBlueprint:Warning: [Compiler Ue4ASP_Character] Warning [0016.15] Compile of Ue4ASP_Character successful, but with 2 Warning(s) [in 0 ms] (/Game/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character)
+[2018.03.04-02.09.57:956][  0]LogBlueprint:Warning: [Compiler Ue4ASP_Character] Warning [0016.15] Compile of Ue4ASP_Character successful, but with 3 Warning(s) [in 0 ms] (/Game/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character)
+[2018.03.04-02.10.00:168][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.04-02.10.00:168][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading NULL.
+[2018.03.04-02.10.00:168][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.04-02.10.00:168][  0]LoadErrors: Info Failed to load /Script/EnvironmentQueryEditor.EnvironmentQueryGraph Referenced by FindPlayer
+[2018.03.04-02.10.00:168][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading NULL.
+[2018.03.04-02.10.00:168][  0]LoadErrors: Info Failed to load /Script/EnvironmentQueryEditor.EnvironmentQueryGraph Referenced by FindPlayer
+[2018.03.04-02.10.00:168][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.04-02.10.00:168][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading NULL.
+[2018.03.04-02.10.00:168][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2018.03.04-02.10.00:168][  0]LoadErrors: Info Failed to load /Script/EnvironmentQueryEditor.EnvironmentQueryGraphNode_Root Referenced by PackageMetaData
+[2018.03.04-02.10.00:168][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading NULL.
+[2018.03.04-02.10.00:168][  0]LoadErrors: Info Failed to load /Script/EnvironmentQueryEditor.EnvironmentQueryGraphNode_Root Referenced by PackageMetaData
+[2018.03.04-02.10.01:249][  0]LogClass:Warning: Enum '/Game/AI/AI_State.AI_State' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2018.03.04-02.10.01:572][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.03.04-02.10.01:770][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.04-02.10.01:816][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.04-02.10.01:873][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 56.316ms to complete.
+[2018.03.04-02.10.01:873][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 8.501
+[2018.03.04-02.10.02:498][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.03.04-02.10.02:655][  0]LogCollectionManager: Loaded 0 collections in 0.000986 seconds
+[2018.03.04-02.10.02:796][  0]LogFileCache: Scanning file cache for directory 'G:/Unreal Projects/WEAPON_MOD_PROJECT/Saved/Collections/' took 0.01s
+[2018.03.04-02.10.02:796][  0]LogFileCache: Scanning file cache for directory 'G:/Unreal Projects/WEAPON_MOD_PROJECT/Content/Developers/petermiller/Collections/' took 0.01s
+[2018.03.04-02.10.02:796][  0]LogFileCache: Scanning file cache for directory 'G:/Unreal Projects/WEAPON_MOD_PROJECT/Content/Collections/' took 0.01s
+[2018.03.04-02.10.02:796][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2018.03.04-02.10.02:804][  0]LogContentBrowser: Native class hierarchy populated in 0.0071 seconds. Added 2330 classes and 493 folders.
+[2018.03.04-02.10.02:855][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.03.04-02.10.03:246][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.03.04-02.10.03:261][  0]LogSlate: Took 0.000162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.04-02.10.03:262][  0]LogSlate: Took 0.000178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.04-02.10.03:300][  0]LogSlate: Took 0.016572 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.04-02.10.03:494][  0]LogRenderer: Reallocating scene render targets to support 552x568 NumSamples 1 (Frame:1).
+[2018.03.04-02.10.03:736][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.03.04-02.10.03:782][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.03.04-02.10.03:782][  0]LogLoad: (Engine Initialization) Total time: 21.98 seconds
+[2018.03.04-02.10.03:782][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.59 seconds
+[2018.03.04-02.10.03:782][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.03.04-02.10.03:782][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.03.04-02.10.04:122][  0]LogOcInput: OculusInput pre-init called
+[2018.03.04-02.10.04:122][  0]LogHMD: Starting GearVRController plugin
+[2018.03.04-02.10.04:165][  0]LogContentStreaming: Texture pool size now 800 MB
+[2018.03.04-02.10.04:270][  0]LogSlate: Took 0.011550 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.04-02.10.04:484][  1]LogAssetRegistry: Asset discovery search completed in 16.5139 seconds
+[2018.03.04-02.10.04:487][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.03.04-02.10.04:487][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000026 seconds (updated 0 objects)
+[2018.03.04-02.10.05:131][  3]LogSlate: Took 0.000217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.04-02.11.44:463][ 85]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.04-02.11.45:047][ 85]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.03.04-02.11.45:047][ 85]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.04-02.11.45:095][ 85]PIE: New page: PIE session: FirstPersonExampleMap (5 Mar 2018 00:11:45)
+[2018.03.04-02.11.45:095][ 85]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.03.04-02.11.45:156][ 85]LogPlayLevel: PIE: StaticDuplicateObject took: (0.061121s)
+[2018.03.04-02.11.45:157][ 85]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.03.04-02.11.45:157][ 85]LogPlayLevel: PIE: World Init took: (0.000693s)
+[2018.03.04-02.11.45:157][ 85]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.062063s)
+[2018.03.04-02.11.45:187][ 85]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.04-02.11.45:194][ 85]LogInit: FAudioDevice initialized.
+[2018.03.04-02.11.45:242][ 85]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.04-02.11.45:256][ 85]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.03.04-13.11.45
+[2018.03.04-02.11.45:276][ 85]LogWorld: Bringing up level for play took: 0.023884
+[2018.03.04-02.11.45:403][ 85]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2018.03.04-02.11.45:492][ 85]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.316
+[2018.03.04-02.11.45:492][ 85]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.03.04-02.11.47:172][260]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.03.04-02.11.47:206][260]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.03.04-02.11.57:426][456]LogSlate: Took 0.000137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.04-02.11.57:448][456]Cmd: MAP LOAD FILE="../../../../Unreal Projects/WEAPON_MOD_PROJECT/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.04-02.11.57:448][456]LightingResults: New page: Lighting Build
+[2018.03.04-02.11.57:449][456]LoadErrors: New page: Loading map: FirstPersonExampleMap.umap
+[2018.03.04-02.11.57:451][456]MapCheck: New page: Map Check
+[2018.03.04-02.11.57:451][456]LightingResults: New page: Lighting Build
+[2018.03.04-02.11.57:613][456]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.03.04-02.11.57:669][456]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.04-02.11.57:699][456]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.04-02.11.57:754][456]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 55.467ms to complete.
+[2018.03.04-02.11.57:755][456]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.307
+[2018.03.04-02.25.36:952][524]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 112 classes and 0 folders.
+[2018.03.04-02.25.37:542][524]LogSlate: Took 0.000158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.04-02.25.37:708][524]LogSlate: Took 0.007595 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.04-02.25.46:860][464]LogSlate: Took 0.010114 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.04-02.27.25:095][ 47]BlueprintLog: New page: Compile ForgeMenu
+[2018.03.04-02.27.25:232][ 47]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.03.04-02.27.26:562][198]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Shop_BP/ForgeMenu" FILE="../../../../Unreal Projects/WEAPON_MOD_PROJECT/Content/FirstPersonBP/Shop_BP/ForgeMenu.uasset" SILENT=true
+[2018.03.04-02.27.27:124][198]LogSavePackage: Save=55.72ms
+[2018.03.04-02.27.27:124][198]LogSavePackage: Moving '../../../../Unreal Projects/WEAPON_MOD_PROJECT/Saved/ForgeMenu5182F8E8459ECA97420F44BA278C3D9C.tmp' to '../../../../Unreal Projects/WEAPON_MOD_PROJECT/Content/FirstPersonBP/Shop_BP/ForgeMenu.uasset'
+[2018.03.04-02.27.27:139][198]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/WEAPON_MOD_PROJECT/Content/FirstPersonBP/Shop_BP/ForgeMenu.uasset
+[2018.03.04-02.27.35:495][188]BlueprintLog: New page: Compile ForgeMenu
+[2018.03.04-02.27.35:509][188]LogBlueprint:Warning: [Compiler ForgeMenu] Warning 'Weapon Slot' does not inherit from 'Current Weapon' ( Cast To WeaponSlot  would always fail).
+[2018.03.04-02.27.35:617][188]BlueprintEditorCompileResults:Warning: Warning 'Weapon Slot' does not inherit from 'Current Weapon' ( Cast To WeaponSlot  would always fail).
+[2018.03.04-02.27.35:617][188]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.03.04-02.27.35:617][188]LogBlueprint:Warning: [Compiler ForgeMenu] Warning [1073.81] Compile of ForgeMenu successful, but with 1 Warning(s) [in 122 ms] (/Game/FirstPersonBP/Shop_BP/ForgeMenu.ForgeMenu)
+[2018.03.04-02.28.28:194][630]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.012
+[2018.03.04-02.28.28:212][630]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Shop_BP/ForgeMenu] ([1] browsable assets)...
+[2018.03.04-02.28.28:212][630]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Shop_BP/ForgeMenu]
+[2018.03.04-02.28.28:265][630]LogSavePackage: Save=43.43ms
+[2018.03.04-02.28.28:265][630]LogSavePackage: Moving '../../../../Unreal Projects/WEAPON_MOD_PROJECT/Saved/ForgeMenu_Auto1D73421494A7ACD09151313BA7FD509EC.tmp' to '../../../../Unreal Projects/WEAPON_MOD_PROJECT/Saved/Autosaves/Game/FirstPersonBP/Shop_BP/ForgeMenu_Auto1.uasset'
+[2018.03.04-02.28.28:282][630]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/WEAPON_MOD_PROJECT/Saved/Autosaves/Game/FirstPersonBP/Shop_BP/ForgeMenu_Auto1.uasset
+[2018.03.04-02.28.28:282][630]LogFileHelpers: Auto-saving content packages took 0.086
+[2018.03.04-02.28.35:413][365]LogSlate: Took 0.010646 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.03.04-02.28.59:603][269]BlueprintLog: New page: Compile ForgeMenu
+[2018.03.04-02.28.59:725][269]BlueprintEditorCompileResults: Info 'WeaponSlotRef' is already a 'Weapon Slot', you don't need  Cast To WeaponSlot .
+[2018.03.04-02.28.59:725][269]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.03.04-02.29.00:435][349]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Shop_BP/ForgeMenu" FILE="../../../../Unreal Projects/WEAPON_MOD_PROJECT/Content/FirstPersonBP/Shop_BP/ForgeMenu.uasset" SILENT=true
+[2018.03.04-02.29.00:486][349]LogSavePackage: Save=43.45ms
+[2018.03.04-02.29.00:486][349]LogSavePackage: Moving '../../../../Unreal Projects/WEAPON_MOD_PROJECT/Saved/ForgeMenuFCB42A0D41555BEF50882F8091039A46.tmp' to '../../../../Unreal Projects/WEAPON_MOD_PROJECT/Content/FirstPersonBP/Shop_BP/ForgeMenu.uasset'
+[2018.03.04-02.29.00:488][349]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/WEAPON_MOD_PROJECT/Content/FirstPersonBP/Shop_BP/ForgeMenu.uasset
+[2018.03.04-02.30.32:077][450]BlueprintLog: New page: Compile ForgeMenu
+[2018.03.04-02.30.32:175][450]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.03.04-02.30.32:648][504]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Shop_BP/ForgeMenu" FILE="../../../../Unreal Projects/WEAPON_MOD_PROJECT/Content/FirstPersonBP/Shop_BP/ForgeMenu.uasset" SILENT=true
+[2018.03.04-02.30.32:697][504]LogSavePackage: Save=41.24ms
+[2018.03.04-02.30.32:697][504]LogSavePackage: Moving '../../../../Unreal Projects/WEAPON_MOD_PROJECT/Saved/ForgeMenuD3B4A4E045C9D949C23A0088FD7CEE42.tmp' to '../../../../Unreal Projects/WEAPON_MOD_PROJECT/Content/FirstPersonBP/Shop_BP/ForgeMenu.uasset'
+[2018.03.04-02.30.32:699][504]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/WEAPON_MOD_PROJECT/Content/FirstPersonBP/Shop_BP/ForgeMenu.uasset
+[2018.03.04-02.31.18:216][363]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Shop_BP/ForgeMenu" FILE="../../../../Unreal Projects/WEAPON_MOD_PROJECT/Content/FirstPersonBP/Shop_BP/ForgeMenu.uasset" SILENT=true
+[2018.03.04-02.31.18:262][363]LogSavePackage: Save=38.09ms
+[2018.03.04-02.31.18:262][363]LogSavePackage: Moving '../../../../Unreal Projects/WEAPON_MOD_PROJECT/Saved/ForgeMenu38C21AEC40C38E96812219B49FD75A5A.tmp' to '../../../../Unreal Projects/WEAPON_MOD_PROJECT/Content/FirstPersonBP/Shop_BP/ForgeMenu.uasset'
+[2018.03.04-02.31.18:264][363]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/WEAPON_MOD_PROJECT/Content/FirstPersonBP/Shop_BP/ForgeMenu.uasset
+[2018.03.04-02.36.03:660][254]LogBlueprint:Warning: [WeaponSlot] 'PartIdSight' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:660][254]LogBlueprint:Warning: [WeaponSlot] 'PartIdSight' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:661][254]LogBlueprint:Warning: [WeaponSlot] 'PartNameSight' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:661][254]LogBlueprint:Warning: [WeaponSlot] 'PartNameSight' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:661][254]LogBlueprint:Warning: [WeaponSlot] 'PartTypeSight' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:661][254]LogBlueprint:Warning: [WeaponSlot] 'PartTypeSight' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:661][254]LogBlueprint:Warning: [WeaponSlot] 'PartDamageSight' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:661][254]LogBlueprint:Warning: [WeaponSlot] 'PartDamageSight' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:661][254]LogBlueprint:Warning: [WeaponSlot] 'PartAccuracySight' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:661][254]LogBlueprint:Warning: [WeaponSlot] 'PartAccuracySight' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:661][254]LogBlueprint:Warning: [WeaponSlot] 'PartRangeSight' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:661][254]LogBlueprint:Warning: [WeaponSlot] 'PartRangeSight' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:661][254]LogBlueprint:Warning: [WeaponSlot] 'PartStyleSight' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:661][254]LogBlueprint:Warning: [WeaponSlot] 'PartStyleSight' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:661][254]LogBlueprint:Warning: [WeaponSlot] 'PartIconSight' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:661][254]LogBlueprint:Warning: [WeaponSlot] 'PartIconSight' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:662][254]LogBlueprint:Warning: [WeaponSlot] 'DamageTypeSight' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:662][254]LogBlueprint:Warning: [WeaponSlot] 'DamageTypeSight' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:662][254]LogBlueprint:Warning: [WeaponSlot] 'PartIdBarrel' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:662][254]LogBlueprint:Warning: [WeaponSlot] 'PartIdBarrel' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:662][254]LogBlueprint:Warning: [WeaponSlot] 'PartNameBarrel' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:662][254]LogBlueprint:Warning: [WeaponSlot] 'PartNameBarrel' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:662][254]LogBlueprint:Warning: [WeaponSlot] 'PartTypeBarrel' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:662][254]LogBlueprint:Warning: [WeaponSlot] 'PartTypeBarrel' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:662][254]LogBlueprint:Warning: [WeaponSlot] 'PartDamageBarrel' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:662][254]LogBlueprint:Warning: [WeaponSlot] 'PartDamageBarrel' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:662][254]LogBlueprint:Warning: [WeaponSlot] 'PartAccuracyBarrel' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:662][254]LogBlueprint:Warning: [WeaponSlot] 'PartAccuracyBarrel' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:662][254]LogBlueprint:Warning: [WeaponSlot] 'PartRangeBarrel' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:662][254]LogBlueprint:Warning: [WeaponSlot] 'PartRangeBarrel' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:662][254]LogBlueprint:Warning: [WeaponSlot] 'PartIconBarrel' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:662][254]LogBlueprint:Warning: [WeaponSlot] 'PartIconBarrel' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:662][254]LogBlueprint:Warning: [WeaponSlot] 'DamageTypeBarrel' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:662][254]LogBlueprint:Warning: [WeaponSlot] 'DamageTypeBarrel' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:662][254]LogBlueprint:Warning: [WeaponSlot] 'PartStyleBarrel' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:662][254]LogBlueprint:Warning: [WeaponSlot] 'PartStyleBarrel' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:662][254]LogBlueprint:Warning: [WeaponSlot] 'PartIdMag' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:662][254]LogBlueprint:Warning: [WeaponSlot] 'PartIdMag' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:662][254]LogBlueprint:Warning: [WeaponSlot] 'PartNameMag' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:662][254]LogBlueprint:Warning: [WeaponSlot] 'PartNameMag' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:662][254]LogBlueprint:Warning: [WeaponSlot] 'PartTypeMag' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:662][254]LogBlueprint:Warning: [WeaponSlot] 'PartTypeMag' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:662][254]LogBlueprint:Warning: [WeaponSlot] 'PartDamageMag' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:662][254]LogBlueprint:Warning: [WeaponSlot] 'PartDamageMag' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:662][254]LogBlueprint:Warning: [WeaponSlot] 'PartAccuracyMag' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:662][254]LogBlueprint:Warning: [WeaponSlot] 'PartAccuracyMag' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:662][254]LogBlueprint:Warning: [WeaponSlot] 'PartRangeMag' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:662][254]LogBlueprint:Warning: [WeaponSlot] 'PartRangeMag' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:662][254]LogBlueprint:Warning: [WeaponSlot] 'PartStyleMag' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:662][254]LogBlueprint:Warning: [WeaponSlot] 'PartStyleMag' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:662][254]LogBlueprint:Warning: [WeaponSlot] 'PartIconMag' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:662][254]LogBlueprint:Warning: [WeaponSlot] 'PartIconMag' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:662][254]LogBlueprint:Warning: [WeaponSlot] 'DamageTypeMag' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:662][254]LogBlueprint:Warning: [WeaponSlot] 'DamageTypeMag' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:662][254]LogBlueprint:Warning: [WeaponSlot] 'PartIdRec' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:662][254]LogBlueprint:Warning: [WeaponSlot] 'PartIdRec' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:662][254]LogBlueprint:Warning: [WeaponSlot] 'PartNameRec' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:662][254]LogBlueprint:Warning: [WeaponSlot] 'PartNameRec' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:662][254]LogBlueprint:Warning: [WeaponSlot] 'PartTypeRec' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:662][254]LogBlueprint:Warning: [WeaponSlot] 'PartTypeRec' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:662][254]LogBlueprint:Warning: [WeaponSlot] 'PartDamageRec' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:662][254]LogBlueprint:Warning: [WeaponSlot] 'PartDamageRec' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:662][254]LogBlueprint:Warning: [WeaponSlot] 'PartAccuracyRec' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:662][254]LogBlueprint:Warning: [WeaponSlot] 'PartAccuracyRec' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:662][254]LogBlueprint:Warning: [WeaponSlot] 'PartRangeRec' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:662][254]LogBlueprint:Warning: [WeaponSlot] 'PartRangeRec' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:662][254]LogBlueprint:Warning: [WeaponSlot] 'PartStyleRec' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:662][254]LogBlueprint:Warning: [WeaponSlot] 'PartStyleRec' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:663][254]LogBlueprint:Warning: [WeaponSlot] 'PartIconRec' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:663][254]LogBlueprint:Warning: [WeaponSlot] 'PartIconRec' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:663][254]LogBlueprint:Warning: [WeaponSlot] 'DamageTypeRec' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:663][254]LogBlueprint:Warning: [WeaponSlot] 'DamageTypeRec' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:663][254]LogBlueprint:Warning: [WeaponSlot] 'PartIdStock' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:663][254]LogBlueprint:Warning: [WeaponSlot] 'PartIdStock' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:663][254]LogBlueprint:Warning: [WeaponSlot] 'PartNameStock' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:663][254]LogBlueprint:Warning: [WeaponSlot] 'PartNameStock' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:663][254]LogBlueprint:Warning: [WeaponSlot] 'PartTypeStock' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:663][254]LogBlueprint:Warning: [WeaponSlot] 'PartTypeStock' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:663][254]LogBlueprint:Warning: [WeaponSlot] 'PartDamageStock' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:663][254]LogBlueprint:Warning: [WeaponSlot] 'PartDamageStock' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:663][254]LogBlueprint:Warning: [WeaponSlot] 'PartAccuracyStock' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:663][254]LogBlueprint:Warning: [WeaponSlot] 'PartAccuracyStock' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:663][254]LogBlueprint:Warning: [WeaponSlot] 'PartRangeStock' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:663][254]LogBlueprint:Warning: [WeaponSlot] 'PartRangeStock' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:663][254]LogBlueprint:Warning: [WeaponSlot] 'PartStyleStock' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:663][254]LogBlueprint:Warning: [WeaponSlot] 'PartStyleStock' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:663][254]LogBlueprint:Warning: [WeaponSlot] 'PartIconStock' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:663][254]LogBlueprint:Warning: [WeaponSlot] 'PartIconStock' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:663][254]LogBlueprint:Warning: [WeaponSlot] 'DamageTypeStock' variable not found. Base class was probably changed.
+[2018.03.04-02.36.03:663][254]LogBlueprint:Warning: [WeaponSlot] 'DamageTypeStock' variable not found. Base class was probably changed.
+[2018.03.04-02.36.20:223][195]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_4.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.20:225][195]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_6.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.20:229][195]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_23.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.24:796][735]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_36.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.24:798][735]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_38.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.24:800][735]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_25.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.27:024][993]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_54.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.27:025][993]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_56.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.27:028][993]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_27.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.28:103][114]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_72.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.28:105][114]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_74.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.28:107][114]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_29.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.30:641][409]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_90.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.30:643][409]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_92.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.30:645][409]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_31.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.32:359][603]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_108.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.32:361][603]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_110.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.32:364][603]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_33.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.33:988][786]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_126.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.33:990][786]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_128.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.33:993][786]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_35.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.36:189][ 39]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_144.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.36:191][ 39]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_146.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.36:195][ 39]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_37.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.37:783][220]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_162.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.37:785][220]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_164.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.37:788][220]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_39.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.41:690][671]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_180.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.41:692][671]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_182.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.41:694][671]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_41.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.43:321][851]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_198.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.43:322][851]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_200.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.43:325][851]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_43.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.44:781][ 14]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_216.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.44:783][ 14]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_218.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.44:785][ 14]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_45.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.46:427][197]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_234.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.46:429][197]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_236.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.46:432][197]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_47.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.48:481][431]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_252.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.48:483][431]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_254.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.48:485][431]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_49.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.50:108][615]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_270.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.50:109][615]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_272.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.50:112][615]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_51.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.52:138][849]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_288.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.52:140][849]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_290.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.52:142][849]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_53.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.54:024][ 65]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_306.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.54:026][ 65]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_308.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.54:028][ 65]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_55.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.55:416][223]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_324.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.55:418][223]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_326.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.55:420][223]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_57.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.59:742][730]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_342.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.59:744][730]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_344.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.36.59:746][730]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_59.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.01:428][919]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_360.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.01:430][919]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_362.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.01:433][919]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_61.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.03:329][133]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_378.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.03:330][133]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_380.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.03:333][133]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_63.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.05:363][364]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_396.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.05:365][364]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_398.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.05:368][364]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_65.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.07:206][571]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_414.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.07:208][571]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_416.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.07:211][571]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_67.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.10:685][969]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_432.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.10:687][969]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_434.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.10:689][969]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_69.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.12:368][157]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_450.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.12:369][157]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_452.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.12:372][157]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_71.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.14:067][350]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_468.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.14:069][350]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_470.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.14:071][350]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_73.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.15:864][556]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_486.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.15:866][556]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_488.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.15:868][556]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_75.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.19:065][923]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_504.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.19:067][923]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_506.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.19:069][923]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_77.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.21:265][173]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_522.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.21:266][173]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_524.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.21:269][173]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_79.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.22:913][357]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_540.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.22:914][357]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_542.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.22:917][357]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_81.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.25:372][633]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_558.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.25:374][633]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_560.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.25:376][633]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_83.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.26:992][810]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_576.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.26:994][810]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_578.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.26:997][810]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_85.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.29:037][ 39]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_594.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.29:039][ 39]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_596.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.29:042][ 39]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_87.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.31:041][266]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_612.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.31:042][266]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_614.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.31:045][266]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_89.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.32:741][456]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_630.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.32:743][456]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_632.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.32:746][456]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_91.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.34:520][659]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_648.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.34:522][659]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_650.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.34:524][659]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_93.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.39:457][223]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_666.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.39:459][223]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_668.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.39:461][223]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_95.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.41:049][403]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_684.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.41:051][403]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_686.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.41:053][403]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_97.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.44:527][807]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_702.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.44:529][807]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_704.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.44:532][807]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_99.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.46:706][ 57]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_720.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.46:707][ 57]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_722.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.46:710][ 57]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_101.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.48:823][300]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_738.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.48:825][300]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_740.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.48:828][300]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_103.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.50:639][507]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_756.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.50:641][507]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_758.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.50:643][507]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_105.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.52:296][695]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_774.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.52:298][695]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_776.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.52:300][695]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_107.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.54:445][940]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_792.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.54:447][940]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_794.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.54:449][940]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_109.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.56:025][119]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_810.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.56:027][119]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_812.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.37.56:029][119]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_111.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.38.09:370][618]BlueprintLog: New page: Compile WeaponSlot
+[2018.03.04-02.38.09:986][618]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_14.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.38.09:988][618]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_16.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.38.09:991][618]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_21.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.38.10:392][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/WeaponParts/WeaponSlot" FILE="../../../../Unreal Projects/WEAPON_MOD_PROJECT/Content/FirstPersonBP/WeaponParts/WeaponSlot.uasset" SILENT=true
+[2018.03.04-02.38.10:482][658]LogSavePackage: Save=81.37ms
+[2018.03.04-02.38.10:482][658]LogSavePackage: Moving '../../../../Unreal Projects/WEAPON_MOD_PROJECT/Saved/WeaponSlot2D2D091C4B91CB2F1061F5A9B8256537.tmp' to '../../../../Unreal Projects/WEAPON_MOD_PROJECT/Content/FirstPersonBP/WeaponParts/WeaponSlot.uasset'
+[2018.03.04-02.38.10:484][658]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/WEAPON_MOD_PROJECT/Content/FirstPersonBP/WeaponParts/WeaponSlot.uasset
+[2018.03.04-02.38.29:765][966]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_26.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.38.29:767][966]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_28.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.38.29:770][966]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_24.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.38.50:248][402]BlueprintLog: New page: Compile WeaponSlot
+[2018.03.04-02.38.50:764][402]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_14.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.38.50:765][402]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_16.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.38.50:768][402]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_21.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.38.51:283][458]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/WeaponParts/WeaponSlot" FILE="../../../../Unreal Projects/WEAPON_MOD_PROJECT/Content/FirstPersonBP/WeaponParts/WeaponSlot.uasset" SILENT=true
+[2018.03.04-02.38.51:361][458]LogSavePackage: Save=69.16ms
+[2018.03.04-02.38.51:361][458]LogSavePackage: Moving '../../../../Unreal Projects/WEAPON_MOD_PROJECT/Saved/WeaponSlot3B31BB0D4F97941F2E588D8C9ACCE9B8.tmp' to '../../../../Unreal Projects/WEAPON_MOD_PROJECT/Content/FirstPersonBP/WeaponParts/WeaponSlot.uasset'
+[2018.03.04-02.38.51:364][458]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/WEAPON_MOD_PROJECT/Content/FirstPersonBP/WeaponParts/WeaponSlot.uasset
+[2018.03.04-02.38.55:498][928]BlueprintLog: New page: Compile FirstPersonCharacter
+[2018.03.04-02.38.56:041][928]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_24.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.38.56:042][928]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_20.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.38.56:044][928]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_22.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.38.56:097][928]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_28.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.38.56:099][928]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_42.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.38.56:100][928]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_44.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.38.56:150][928]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2018.03.04-02.38.57:052][965]LogSavePackage: Save=364.18ms
+[2018.03.04-02.38.57:052][965]LogSavePackage: Moving '../../../../Unreal Projects/WEAPON_MOD_PROJECT/Saved/FirstPersonCharacter6E053EFF4F0ABFDE7799839CBC96EEB6.tmp' to '../../../../Unreal Projects/WEAPON_MOD_PROJECT/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2018.03.04-02.38.57:054][965]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/WEAPON_MOD_PROJECT/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2018.03.04-02.39.57:034][689]LogBlueprint:Warning: [WeaponSlot] 'DamageTypeValue' variable not found. Base class was probably changed.
+[2018.03.04-02.39.57:039][689]LogBlueprint:Warning: [WeaponSlot] 'FireDamage' variable not found. Base class was probably changed.
+[2018.03.04-02.39.57:039][689]LogBlueprint:Warning: [WeaponSlot] 'PhysicalDamage' variable not found. Base class was probably changed.
+[2018.03.04-02.39.57:039][689]LogBlueprint:Warning: [WeaponSlot] 'LightningDamage' variable not found. Base class was probably changed.
+[2018.03.04-02.39.57:039][689]LogBlueprint:Warning: [WeaponSlot] 'EarthDamage' variable not found. Base class was probably changed.
+[2018.03.04-02.39.57:039][689]LogBlueprint:Warning: [WeaponSlot] 'NatureDamage' variable not found. Base class was probably changed.
+[2018.03.04-02.39.57:039][689]LogBlueprint:Warning: [WeaponSlot] 'ArmorPiercingDamage' variable not found. Base class was probably changed.
+[2018.03.04-02.39.57:040][689]LogBlueprint:Warning: [WeaponSlot] 'ArmorShatterDamage' variable not found. Base class was probably changed.
+[2018.03.04-02.39.58:651][874]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_32.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.39.58:653][874]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_57.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.39.58:654][874]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_59.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.40.08:325][999]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_34.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.40.08:326][999]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_75.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.40.08:328][999]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_77.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.40.11:179][331]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_36.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.40.11:181][331]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_100.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.40.11:182][331]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_102.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.40.15:955][726]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_38.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.40.15:957][726]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_118.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.40.15:958][726]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_120.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.40.19:141][ 98]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_40.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.40.19:143][ 98]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_136.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.40.19:145][ 98]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_138.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.40.21:083][320]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_42.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.40.21:084][320]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_154.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.40.21:086][320]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_156.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.40.23:633][615]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_44.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.40.23:635][615]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_172.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.40.23:637][615]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_174.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.40.25:779][863]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_46.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.40.25:781][863]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_190.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.40.25:783][863]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_192.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.40.27:986][118]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_48.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.40.27:987][118]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_208.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.40.27:989][118]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_210.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.40.29:508][290]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_50.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.40.29:509][290]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_226.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.40.29:511][290]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_228.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.40.31:519][521]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_52.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.40.31:520][521]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_244.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.40.31:522][521]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_246.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.40.33:538][753]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_54.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.40.33:540][753]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_262.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.40.33:541][753]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_264.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.41.11:240][556]LogSavePackage: Save=580.46ms
+[2018.03.04-02.41.11:240][556]LogSavePackage: Moving '../../../../Unreal Projects/WEAPON_MOD_PROJECT/Saved/FirstPersonExampleMap_Auto2F9CF35E449E84AE0B2B6B7A3211AA7AF.tmp' to '../../../../Unreal Projects/WEAPON_MOD_PROJECT/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap'
+[2018.03.04-02.41.11:241][556]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/WEAPON_MOD_PROJECT/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap
+[2018.03.04-02.41.11:242][556]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.708
+[2018.03.04-02.41.11:242][556]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.708
+[2018.03.04-02.41.11:245][556]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2018.03.04-02.41.11:255][556]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2018.03.04-02.41.11:255][556]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2018.03.04-02.41.11:661][556]LogSavePackage: Save=397.98ms
+[2018.03.04-02.41.11:661][556]LogSavePackage: Moving '../../../../Unreal Projects/WEAPON_MOD_PROJECT/Saved/FirstPersonCharacter_Auto2E499419F43532DE3DD3892B4E70B4E4F.tmp' to '../../../../Unreal Projects/WEAPON_MOD_PROJECT/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto2.uasset'
+[2018.03.04-02.41.11:672][556]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/WEAPON_MOD_PROJECT/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto2.uasset
+[2018.03.04-02.41.11:688][556]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/WeaponParts/WeaponSlot] ([1] browsable assets)...
+[2018.03.04-02.41.11:697][556]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/WeaponParts/WeaponSlot.WeaponSlot]
+[2018.03.04-02.41.11:697][556]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/WeaponParts/WeaponSlot]
+[2018.03.04-02.41.11:782][556]LogSavePackage: Save=76.78ms
+[2018.03.04-02.41.11:782][556]LogSavePackage: Moving '../../../../Unreal Projects/WEAPON_MOD_PROJECT/Saved/WeaponSlot_Auto2E1E3CAEC4FF83254E8B62499425C368B.tmp' to '../../../../Unreal Projects/WEAPON_MOD_PROJECT/Saved/Autosaves/Game/FirstPersonBP/WeaponParts/WeaponSlot_Auto2.uasset'
+[2018.03.04-02.41.11:783][556]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/WEAPON_MOD_PROJECT/Saved/Autosaves/Game/FirstPersonBP/WeaponParts/WeaponSlot_Auto2.uasset
+[2018.03.04-02.41.11:783][556]LogFileHelpers: Auto-saving content packages took 0.539
+[2018.03.04-02.42.19:738][882]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_56.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.42.19:739][882]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_280.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.42.19:741][882]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_282.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.42.22:645][ 51]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_58.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.42.22:647][ 51]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_291.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.42.22:648][ 51]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_293.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.42.28:023][489]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_60.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.42.28:025][489]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_309.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.42.28:026][489]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_311.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.42.29:921][591]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_62.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.42.29:923][591]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_334.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.42.29:924][591]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_336.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.42.31:707][716]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_64.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.42.31:709][716]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_352.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.42.31:711][716]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_354.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.42.45:639][845]Cmd: TRANSACTION UNDO
+[2018.03.04-02.42.45:639][845]LogEditorTransaction: Undo Remove Variable
+[2018.03.04-02.42.45:646][845]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_66.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.42.45:648][845]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_377.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.42.45:649][845]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_379.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.42.45:908][845]Cmd: TRANSACTION UNDO
+[2018.03.04-02.42.45:908][845]LogEditorTransaction: Undo Remove Variable
+[2018.03.04-02.42.45:915][845]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_68.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.42.45:917][845]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_402.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.42.45:918][845]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_404.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.42.46:134][845]Cmd: TRANSACTION UNDO
+[2018.03.04-02.42.46:134][845]LogEditorTransaction: Undo Remove Variable
+[2018.03.04-02.42.46:141][845]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_70.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.42.46:143][845]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_427.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.42.46:144][845]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_429.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.42.46:956][845]Cmd: TRANSACTION UNDO
+[2018.03.04-02.42.46:956][845]LogEditorTransaction: Undo Remove Variable
+[2018.03.04-02.42.46:964][845]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_72.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.42.46:965][845]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_452.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.42.46:967][845]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_454.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.42.48:141][906]Cmd: TRANSACTION UNDO
+[2018.03.04-02.42.48:141][906]LogEditorTransaction: Undo Remove Variable
+[2018.03.04-02.42.48:149][906]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_74.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.42.48:152][906]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_477.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.42.48:153][906]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_479.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.42.48:693][965]Cmd: TRANSACTION UNDO
+[2018.03.04-02.42.48:693][965]LogEditorTransaction: Undo Create Missing Variable
+[2018.03.04-02.42.48:701][965]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_76.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.42.48:703][965]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_502.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.42.48:704][965]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_504.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.43.12:674][830]BlueprintLog: New page: Compile WeaponSlot
+[2018.03.04-02.43.13:214][830]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_21.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.43.13:215][830]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_14.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.43.13:217][830]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_16.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.47.21:473][243]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/WeaponParts/WeaponSlot" FILE="../../../../Unreal Projects/WEAPON_MOD_PROJECT/Content/FirstPersonBP/WeaponParts/WeaponSlot.uasset" SILENT=true
+[2018.03.04-02.47.21:557][243]LogSavePackage: Save=74.44ms
+[2018.03.04-02.47.21:557][243]LogSavePackage: Moving '../../../../Unreal Projects/WEAPON_MOD_PROJECT/Saved/WeaponSlot27E836054B626AC03C1903892D88E60D.tmp' to '../../../../Unreal Projects/WEAPON_MOD_PROJECT/Content/FirstPersonBP/WeaponParts/WeaponSlot.uasset'
+[2018.03.04-02.47.21:559][243]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/WEAPON_MOD_PROJECT/Content/FirstPersonBP/WeaponParts/WeaponSlot.uasset
+[2018.03.04-02.47.40:702][521]BlueprintLog: New page: Compile FirstPersonCharacter
+[2018.03.04-02.47.41:216][521]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_24.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.47.41:218][521]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_20.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.47.41:219][521]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_22.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.47.41:258][521]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_28.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.47.41:260][521]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_42.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.47.41:261][521]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_44.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.47.41:311][521]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2018.03.04-02.47.42:136][554]LogSavePackage: Save=369.24ms
+[2018.03.04-02.47.42:136][554]LogSavePackage: Moving '../../../../Unreal Projects/WEAPON_MOD_PROJECT/Saved/FirstPersonCharacter819CCA17425ACE0BC778DCBB90CA3EE0.tmp' to '../../../../Unreal Projects/WEAPON_MOD_PROJECT/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2018.03.04-02.47.42:138][554]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/WEAPON_MOD_PROJECT/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2018.03.04-02.48.41:032][145]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_32.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.48.41:033][145]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_57.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.48.41:035][145]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_59.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.48.52:388][499]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_34.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.48.52:390][499]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_82.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.48.52:390][499]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_84.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.48.55:652][888]BlueprintLog: New page: Compile WeaponSlot
+[2018.03.04-02.48.55:866][888]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_24.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.48.55:868][888]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_32.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.48.55:869][888]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_34.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.48.57:172][ 39]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/WeaponParts/WeaponSlot" FILE="../../../../Unreal Projects/WEAPON_MOD_PROJECT/Content/FirstPersonBP/WeaponParts/WeaponSlot.uasset" SILENT=true
+[2018.03.04-02.48.57:254][ 39]LogSavePackage: Save=74.25ms
+[2018.03.04-02.48.57:254][ 39]LogSavePackage: Moving '../../../../Unreal Projects/WEAPON_MOD_PROJECT/Saved/WeaponSlotDC7FD1E848B830DACE8944A44D165303.tmp' to '../../../../Unreal Projects/WEAPON_MOD_PROJECT/Content/FirstPersonBP/WeaponParts/WeaponSlot.uasset'
+[2018.03.04-02.48.57:256][ 39]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/WEAPON_MOD_PROJECT/Content/FirstPersonBP/WeaponParts/WeaponSlot.uasset
+[2018.03.04-02.50.56:028][575]LogBlueprint:Warning: [WeaponSlot] 'WeaponDamage' variable not found. Base class was probably changed.
+[2018.03.04-02.50.56:029][575]LogBlueprint:Warning: [WeaponSlot] 'HeadShotDamage' variable not found. Base class was probably changed.
+[2018.03.04-02.50.56:029][575]LogBlueprint:Warning: [WeaponSlot] 'HeadShotDamage' variable not found. Base class was probably changed.
+[2018.03.04-02.50.56:029][575]LogBlueprint:Warning: [WeaponSlot] 'WeaponDamage' variable not found. Base class was probably changed.
+[2018.03.04-02.50.56:030][575]LogBlueprint:Warning: [WeaponSlot] 'ParticleSystem' variable not found. Base class was probably changed.
+[2018.03.04-02.50.56:030][575]LogBlueprint:Warning: [WeaponSlot] 'ParticleSystem' variable not found. Base class was probably changed.
+[2018.03.04-02.50.56:030][575]LogBlueprint:Warning: [WeaponSlot] 'ParticleSystem' variable not found. Base class was probably changed.
+[2018.03.04-02.50.56:030][575]LogBlueprint:Warning: [WeaponSlot] 'ParticleSystem' variable not found. Base class was probably changed.
+[2018.03.04-02.50.56:030][575]LogBlueprint:Warning: [WeaponSlot] 'ParticleSystem' variable not found. Base class was probably changed.
+[2018.03.04-02.50.56:039][575]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_26.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.50.56:040][575]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_43.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.50.56:042][575]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_45.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.51.27:630][165]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_28.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.51.27:631][165]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_68.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.51.27:633][165]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_70.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.51.40:507][603]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_30.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.51.40:508][603]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_86.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.51.40:510][603]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_88.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.51.56:074][307]BlueprintLog: New page: Compile WeaponSlot
+[2018.03.04-02.51.56:112][307]LogBlueprint:Warning: [Compiler WeaponSlot] Warning Could not find a variable named "WeaponDamage" in 'WeaponSlot_C'.
+Make sure 'WeaponSlot_C' has been compiled for  Get WeaponDamage
+[2018.03.04-02.51.56:113][307]LogBlueprint:Warning: [Compiler WeaponSlot] Warning Could not find a variable named "HeadShotDamage" in 'WeaponSlot_C'.
+Make sure 'WeaponSlot_C' has been compiled for  Set HeadShotDamage
+[2018.03.04-02.51.56:113][307]LogBlueprint:Warning: [Compiler WeaponSlot] Warning Could not find a variable named "WeaponDamage" in 'WeaponSlot_C'.
+Make sure 'WeaponSlot_C' has been compiled for  Get WeaponDamage
+[2018.03.04-02.51.56:113][307]LogBlueprint:Warning: [Compiler WeaponSlot] Warning Could not find a variable named "ParticleSystem" in 'WeaponSlot_C'.
+Make sure 'WeaponSlot_C' has been compiled for  Get ParticleSystem
+[2018.03.04-02.51.56:113][307]LogBlueprint:Warning: [Compiler WeaponSlot] Warning Could not find a variable named "ParticleSystem" in 'WeaponSlot_C'.
+Make sure 'WeaponSlot_C' has been compiled for  Get ParticleSystem
+[2018.03.04-02.51.56:113][307]LogBlueprint:Warning: [Compiler WeaponSlot] Warning Could not find a variable named "ParticleSystem" in 'WeaponSlot_C'.
+Make sure 'WeaponSlot_C' has been compiled for  Get ParticleSystem
+[2018.03.04-02.51.56:113][307]LogBlueprint:Warning: [Compiler WeaponSlot] Warning Could not find a variable named "ParticleSystem" in 'WeaponSlot_C'.
+Make sure 'WeaponSlot_C' has been compiled for  Get ParticleSystem
+[2018.03.04-02.51.56:113][307]LogBlueprint:Warning: [Compiler WeaponSlot] Warning Could not find a variable named "ParticleSystem" in 'WeaponSlot_C'.
+Make sure 'WeaponSlot_C' has been compiled for  Get ParticleSystem
+[2018.03.04-02.51.56:113][307]LogBlueprint:Error: [Compiler WeaponSlot] Error This blueprint (self) is not a PatrolEnemyZombieAI_C, therefore ' Target ' must have a connection.
+[2018.03.04-02.51.56:113][307]LogBlueprint:Error: [Compiler WeaponSlot] Error This blueprint (self) is not a PatrolEnemyZombieAI_C, therefore ' Target ' must have a connection.
+[2018.03.04-02.51.56:113][307]LogBlueprint:Error: [Compiler WeaponSlot] Error This blueprint (self) is not a PatrolEnemyZombieAI_C, therefore ' Target ' must have a connection.
+[2018.03.04-02.51.56:114][307]LogBlueprint:Error: [Compiler WeaponSlot] Error This blueprint (self) is not a PatrolEnemyZombieAI_C, therefore ' Target ' must have a connection.
+[2018.03.04-02.51.56:114][307]LogBlueprint:Error: [Compiler WeaponSlot] Error This blueprint (self) is not a PatrolEnemyZombieAI_C, therefore ' Target ' must have a connection.
+[2018.03.04-02.51.56:114][307]LogBlueprint:Error: [Compiler WeaponSlot] Error This blueprint (self) is not a PatrolEnemyZombieAI_C, therefore ' Target ' must have a connection.
+[2018.03.04-02.51.56:114][307]LogBlueprint:Error: [Compiler WeaponSlot] Error This blueprint (self) is not a PatrolEnemyZombieAI_C, therefore ' Target ' must have a connection.
+[2018.03.04-02.51.56:114][307]LogBlueprint:Error: [Compiler WeaponSlot] Error This blueprint (self) is not a PatrolEnemyZombieAI_C, therefore ' Target ' must have a connection.
+[2018.03.04-02.51.56:114][307]LogBlueprint:Error: [Compiler WeaponSlot] Error This blueprint (self) is not a PatrolEnemyZombieAI_C, therefore ' Target ' must have a connection.
+[2018.03.04-02.51.56:114][307]LogBlueprint:Error: [Compiler WeaponSlot] Error This blueprint (self) is not a PatrolEnemyZombieAI_C, therefore ' Target ' must have a connection.
+[2018.03.04-02.51.56:114][307]LogBlueprint:Error: [Compiler WeaponSlot] Error This blueprint (self) is not a PatrolEnemyZombieAI_C, therefore ' Target ' must have a connection.
+[2018.03.04-02.51.56:114][307]LogBlueprint:Error: [Compiler WeaponSlot] Error This blueprint (self) is not a PatrolEnemyZombieAI_C, therefore ' Target ' must have a connection.
+[2018.03.04-02.51.56:114][307]LogBlueprint:Error: [Compiler WeaponSlot] Error This blueprint (self) is not a PatrolEnemyZombieAI_C, therefore ' Target ' must have a connection.
+[2018.03.04-02.51.56:114][307]LogBlueprint:Error: [Compiler WeaponSlot] Error This blueprint (self) is not a PatrolEnemyZombieAI_C, therefore ' Target ' must have a connection.
+[2018.03.04-02.51.56:114][307]LogBlueprint:Error: [Compiler WeaponSlot] Error This blueprint (self) is not a PatrolEnemyZombieAI_C, therefore ' Target ' must have a connection.
+[2018.03.04-02.51.56:114][307]LogBlueprint:Error: [Compiler WeaponSlot] Error This blueprint (self) is not a Character, therefore ' Target ' must have a connection.
+[2018.03.04-02.51.56:114][307]LogBlueprint:Error: [Compiler WeaponSlot] Error This blueprint (self) is not a PatrolEnemyZombieAI_C, therefore ' Target ' must have a connection.
+[2018.03.04-02.51.56:114][307]LogBlueprint:Error: [Compiler WeaponSlot] Error This blueprint (self) is not a PatrolEnemyZombieAI_C, therefore ' Target ' must have a connection.
+[2018.03.04-02.51.56:114][307]LogBlueprint:Error: [Compiler WeaponSlot] Error The property associated with  Particle System  could not be found
+[2018.03.04-02.51.56:114][307]LogBlueprint:Error: [Compiler WeaponSlot] Error The property associated with  Particle System  could not be found
+[2018.03.04-02.51.56:114][307]LogBlueprint:Error: [Compiler WeaponSlot] Error The property associated with  Particle System  could not be found
+[2018.03.04-02.51.56:114][307]LogBlueprint:Error: [Compiler WeaponSlot] Error Variable node  Get BodyHitBox  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.03.04-02.51.56:114][307]LogBlueprint:Error: [Compiler WeaponSlot] Error The property associated with  Particle System  could not be found
+[2018.03.04-02.51.56:114][307]LogBlueprint:Error: [Compiler WeaponSlot] Error The property associated with  Particle System  could not be found
+[2018.03.04-02.51.56:115][307]LogBlueprint:Error: [Compiler WeaponSlot] Error The property associated with  Weapon Damage  could not be found
+[2018.03.04-02.51.56:115][307]LogBlueprint:Error: [Compiler WeaponSlot] Error Variable node  Get ZombieHP  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.03.04-02.51.56:115][307]LogBlueprint:Error: [Compiler WeaponSlot] Error The property associated with  Head Shot Damage  could not be found
+[2018.03.04-02.51.56:115][307]LogBlueprint:Error: [Compiler WeaponSlot] Error Variable node  Get Mesh  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.03.04-02.51.56:115][307]LogBlueprint:Error: [Compiler WeaponSlot] Error Variable node  Get LowerRightLegHitBox  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.03.04-02.51.56:115][307]LogBlueprint:Error: [Compiler WeaponSlot] Error Variable node  Get UpperRightLegHitBox  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.03.04-02.51.56:115][307]LogBlueprint:Error: [Compiler WeaponSlot] Error Variable node  Get RightFootHitBox  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.03.04-02.51.56:115][307]LogBlueprint:Error: [Compiler WeaponSlot] Error Variable node  Get UpperRightArmHitBox  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.03.04-02.51.56:115][307]LogBlueprint:Error: [Compiler WeaponSlot] Error Variable node  Get LowerRightArmHitBox  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.03.04-02.51.56:115][307]LogBlueprint:Error: [Compiler WeaponSlot] Error Variable node  Get UpperLeftLegHitBox  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.03.04-02.51.56:115][307]LogBlueprint:Error: [Compiler WeaponSlot] Error Variable node  Get LowerLeftLegHitBox  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.03.04-02.51.56:115][307]LogBlueprint:Error: [Compiler WeaponSlot] Error Variable node  Get LeftFootHItBox  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.03.04-02.51.56:115][307]LogBlueprint:Error: [Compiler WeaponSlot] Error Variable node  Get ZombieHP  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.03.04-02.51.56:115][307]LogBlueprint:Error: [Compiler WeaponSlot] Error Variable node  Set ZombieHP  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.03.04-02.51.56:115][307]LogBlueprint:Error: [Compiler WeaponSlot] Error The property associated with  Weapon Damage  could not be found
+[2018.03.04-02.51.56:115][307]LogBlueprint:Error: [Compiler WeaponSlot] Error Variable node  Get ZombieHP  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.03.04-02.51.56:115][307]LogBlueprint:Error: [Compiler WeaponSlot] Error Variable node  Get LowerLeftArmHitBox  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.03.04-02.51.56:115][307]LogBlueprint:Error: [Compiler WeaponSlot] Error Variable node  Set ZombieHP  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.03.04-02.51.56:115][307]LogBlueprint:Error: [Compiler WeaponSlot] Error Variable node  Get UpperLeftArmHitBox  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.03.04-02.51.56:115][307]LogBlueprint:Error: [Compiler WeaponSlot] Error Variable node  Get BodyHitBox  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.03.04-02.51.56:398][307]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "WeaponDamage" in 'WeaponSlot_C'.
+Make sure 'WeaponSlot_C' has been compiled for  Get WeaponDamage
+[2018.03.04-02.51.56:398][307]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "HeadShotDamage" in 'WeaponSlot_C'.
+Make sure 'WeaponSlot_C' has been compiled for  Set HeadShotDamage
+[2018.03.04-02.51.56:398][307]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "WeaponDamage" in 'WeaponSlot_C'.
+Make sure 'WeaponSlot_C' has been compiled for  Get WeaponDamage
+[2018.03.04-02.51.56:398][307]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "ParticleSystem" in 'WeaponSlot_C'.
+Make sure 'WeaponSlot_C' has been compiled for  Get ParticleSystem
+[2018.03.04-02.51.56:398][307]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "ParticleSystem" in 'WeaponSlot_C'.
+Make sure 'WeaponSlot_C' has been compiled for  Get ParticleSystem
+[2018.03.04-02.51.56:398][307]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "ParticleSystem" in 'WeaponSlot_C'.
+Make sure 'WeaponSlot_C' has been compiled for  Get ParticleSystem
+[2018.03.04-02.51.56:398][307]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "ParticleSystem" in 'WeaponSlot_C'.
+Make sure 'WeaponSlot_C' has been compiled for  Get ParticleSystem
+[2018.03.04-02.51.56:398][307]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "ParticleSystem" in 'WeaponSlot_C'.
+Make sure 'WeaponSlot_C' has been compiled for  Get ParticleSystem
+[2018.03.04-02.51.56:398][307]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a PatrolEnemyZombieAI_C, therefore ' Target ' must have a connection.
+[2018.03.04-02.51.56:398][307]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a PatrolEnemyZombieAI_C, therefore ' Target ' must have a connection.
+[2018.03.04-02.51.56:398][307]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a PatrolEnemyZombieAI_C, therefore ' Target ' must have a connection.
+[2018.03.04-02.51.56:398][307]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a PatrolEnemyZombieAI_C, therefore ' Target ' must have a connection.
+[2018.03.04-02.51.56:398][307]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a PatrolEnemyZombieAI_C, therefore ' Target ' must have a connection.
+[2018.03.04-02.51.56:398][307]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a PatrolEnemyZombieAI_C, therefore ' Target ' must have a connection.
+[2018.03.04-02.51.56:398][307]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a PatrolEnemyZombieAI_C, therefore ' Target ' must have a connection.
+[2018.03.04-02.51.56:398][307]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a PatrolEnemyZombieAI_C, therefore ' Target ' must have a connection.
+[2018.03.04-02.51.56:398][307]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a PatrolEnemyZombieAI_C, therefore ' Target ' must have a connection.
+[2018.03.04-02.51.56:398][307]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a PatrolEnemyZombieAI_C, therefore ' Target ' must have a connection.
+[2018.03.04-02.51.56:398][307]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a PatrolEnemyZombieAI_C, therefore ' Target ' must have a connection.
+[2018.03.04-02.51.56:398][307]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a PatrolEnemyZombieAI_C, therefore ' Target ' must have a connection.
+[2018.03.04-02.51.56:398][307]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a PatrolEnemyZombieAI_C, therefore ' Target ' must have a connection.
+[2018.03.04-02.51.56:398][307]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a PatrolEnemyZombieAI_C, therefore ' Target ' must have a connection.
+[2018.03.04-02.51.56:398][307]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a PatrolEnemyZombieAI_C, therefore ' Target ' must have a connection.
+[2018.03.04-02.51.56:398][307]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Character, therefore ' Target ' must have a connection.
+[2018.03.04-02.51.56:398][307]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a PatrolEnemyZombieAI_C, therefore ' Target ' must have a connection.
+[2018.03.04-02.51.56:398][307]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a PatrolEnemyZombieAI_C, therefore ' Target ' must have a connection.
+[2018.03.04-02.51.56:398][307]BlueprintEditorCompileResults:Error: Error The property associated with  Particle System  could not be found
+[2018.03.04-02.51.56:398][307]BlueprintEditorCompileResults:Error: Error The property associated with  Particle System  could not be found
+[2018.03.04-02.51.56:398][307]BlueprintEditorCompileResults:Error: Error The property associated with  Particle System  could not be found
+[2018.03.04-02.51.56:398][307]BlueprintEditorCompileResults:Error: Error Variable node  Get BodyHitBox  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.03.04-02.51.56:398][307]BlueprintEditorCompileResults:Error: Error The property associated with  Particle System  could not be found
+[2018.03.04-02.51.56:398][307]BlueprintEditorCompileResults:Error: Error The property associated with  Particle System  could not be found
+[2018.03.04-02.51.56:398][307]BlueprintEditorCompileResults:Error: Error The property associated with  Weapon Damage  could not be found
+[2018.03.04-02.51.56:398][307]BlueprintEditorCompileResults:Error: Error Variable node  Get ZombieHP  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.03.04-02.51.56:398][307]BlueprintEditorCompileResults:Error: Error The property associated with  Head Shot Damage  could not be found
+[2018.03.04-02.51.56:398][307]BlueprintEditorCompileResults:Error: Error Variable node  Get Mesh  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.03.04-02.51.56:398][307]BlueprintEditorCompileResults:Error: Error Variable node  Get LowerRightLegHitBox  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.03.04-02.51.56:398][307]BlueprintEditorCompileResults:Error: Error Variable node  Get UpperRightLegHitBox  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.03.04-02.51.56:398][307]BlueprintEditorCompileResults:Error: Error Variable node  Get RightFootHitBox  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.03.04-02.51.56:398][307]BlueprintEditorCompileResults:Error: Error Variable node  Get UpperRightArmHitBox  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.03.04-02.51.56:398][307]BlueprintEditorCompileResults:Error: Error Variable node  Get LowerRightArmHitBox  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.03.04-02.51.56:398][307]BlueprintEditorCompileResults:Error: Error Variable node  Get UpperLeftLegHitBox  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.03.04-02.51.56:398][307]BlueprintEditorCompileResults:Error: Error Variable node  Get LowerLeftLegHitBox  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.03.04-02.51.56:399][307]BlueprintEditorCompileResults:Error: Error Variable node  Get LeftFootHItBox  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.03.04-02.51.56:399][307]BlueprintEditorCompileResults:Error: Error Variable node  Get ZombieHP  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.03.04-02.51.56:399][307]BlueprintEditorCompileResults:Error: Error Variable node  Set ZombieHP  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.03.04-02.51.56:399][307]BlueprintEditorCompileResults:Error: Error The property associated with  Weapon Damage  could not be found
+[2018.03.04-02.51.56:399][307]BlueprintEditorCompileResults:Error: Error Variable node  Get ZombieHP  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.03.04-02.51.56:399][307]BlueprintEditorCompileResults:Error: Error Variable node  Get LowerLeftArmHitBox  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.03.04-02.51.56:399][307]BlueprintEditorCompileResults:Error: Error Variable node  Set ZombieHP  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.03.04-02.51.56:399][307]BlueprintEditorCompileResults:Error: Error Variable node  Get UpperLeftArmHitBox  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.03.04-02.51.56:399][307]BlueprintEditorCompileResults:Error: Error Variable node  Get BodyHitBox  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.03.04-02.51.56:399][307]LogBlueprint:Warning: [Compiler WeaponSlot] Warning [2534.59] Compile of WeaponSlot failed. 44 Fatal Issue(s) 8 Warning(s) [in 324 ms] (/Game/FirstPersonBP/WeaponParts/WeaponSlot.WeaponSlot)
+[2018.03.04-02.51.56:869][351]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/WeaponParts/WeaponSlot" FILE="../../../../Unreal Projects/WEAPON_MOD_PROJECT/Content/FirstPersonBP/WeaponParts/WeaponSlot.uasset" SILENT=true
+[2018.03.04-02.51.57:029][351]LogSavePackage: Save=150.91ms
+[2018.03.04-02.51.57:029][351]LogSavePackage: Moving '../../../../Unreal Projects/WEAPON_MOD_PROJECT/Saved/WeaponSlot8DAB732D44CE7EEBA3C2ECA35CAA6919.tmp' to '../../../../Unreal Projects/WEAPON_MOD_PROJECT/Content/FirstPersonBP/WeaponParts/WeaponSlot.uasset'
+[2018.03.04-02.51.57:031][351]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/WEAPON_MOD_PROJECT/Content/FirstPersonBP/WeaponParts/WeaponSlot.uasset
+[2018.03.04-02.52.19:923][708]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_21.BillboardComponent_512) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.52.19:925][708]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_2.BillboardComponent_555) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.52.19:927][708]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_4.BillboardComponent_556) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.52.26:812][391]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_24.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.52.26:814][391]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_21.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.52.26:815][391]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_23.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.52.32:565][ 71]BlueprintLog: New page: Compile WeaponSlot
+[2018.03.04-02.52.32:748][ 71]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_24.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.52.32:749][ 71]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_32.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.52.32:751][ 71]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_WeaponSlot_C_CHILDACTOR_34.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.03.04-02.52.33:333][135]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/WeaponParts/WeaponSlot" FILE="../../../../Unreal Projects/WEAPON_MOD_PROJECT/Content/FirstPersonBP/WeaponParts/WeaponSlot.uasset" SILENT=true
+[2018.03.04-02.52.33:414][135]LogSavePackage: Save=72.59ms
+[2018.03.04-02.52.33:414][135]LogSavePackage: Moving '../../../../Unreal Projects/WEAPON_MOD_PROJECT/Saved/WeaponSlot8DAF6E1545FF1B09BE9B2BAD20C81019.tmp' to '../../../../Unreal Projects/WEAPON_MOD_PROJECT/Content/FirstPersonBP/WeaponParts/WeaponSlot.uasset'
+[2018.03.04-02.52.33:416][135]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/WEAPON_MOD_PROJECT/Content/FirstPersonBP/WeaponParts/WeaponSlot.uasset
+[2018.03.04-02.52.35:000][303]LogUObjectBase:Warning: Object is not registered
+[2018.03.04-02.52.35:261][303]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.261 s
+[2018.03.04-02.52.35:261][303]LogOutputDevice:Error: === Handled ensure: ===
+[2018.03.04-02.52.35:261][303]LogOutputDevice:Error: 
+[2018.03.04-02.52.35:261][303]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1037]
+[2018.03.04-02.52.35:261][303]LogOutputDevice:Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2018.03.04-02.52.35:261][303]LogOutputDevice:Error: Stack: 
+[2018.03.04-02.52.35:262][303]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000A339E2B6
+[2018.03.04-02.52.35:262][303]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000A314B8C2
+[2018.03.04-02.52.35:262][303]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000A3161E86
+[2018.03.04-02.52.35:262][303]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000098AD7556
+[2018.03.04-02.52.35:262][303]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x0000000096EBD27B
+[2018.03.04-02.52.35:262][303]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000962424AA
+[2018.03.04-02.52.35:262][303]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000960E72CC
+[2018.03.04-02.52.35:262][303]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000960EA6D9
+[2018.03.04-02.52.35:262][303]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x0000000096208035
+[2018.03.04-02.52.35:262][303]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000009F7ADB57
+[2018.03.04-02.52.35:262][303]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000009F7B4B61
+[2018.03.04-02.52.35:262][303]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000009F9D48D3
+[2018.03.04-02.52.35:262][303]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000009F80F604
+[2018.03.04-02.52.35:262][303]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000009F7E77FC
+[2018.03.04-02.52.35:262][303]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000009F7D814C
+[2018.03.04-02.52.35:262][303]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000A33915B0
+[2018.03.04-02.52.35:262][303]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000A337B7D1
+[2018.03.04-02.52.35:262][303]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000A33933DB
+[2018.03.04-02.52.35:262][303]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000A3377B22
+[2018.03.04-02.52.35:262][303]LogOutputDevice:Error: USER32.dll!0x00000000C7CB24FD
+[2018.03.04-02.52.35:262][303]LogOutputDevice:Error: USER32.dll!0x00000000C7CB2357
+[2018.03.04-02.52.35:262][303]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000A3393CE6
+[2018.03.04-02.52.35:262][303]LogOutputDevice:Error: UE4Editor.exe!0x000000005E7DDB44
+[2018.03.04-02.52.35:262][303]LogOutputDevice:Error: UE4Editor.exe!0x000000005E7CF0B0
+[2018.03.04-02.52.35:262][303]LogOutputDevice:Error: UE4Editor.exe!0x000000005E7CF12A
+[2018.03.04-02.52.35:262][303]LogOutputDevice:Error: UE4Editor.exe!0x000000005E7E0CF9
+[2018.03.04-02.52.35:262][303]LogOutputDevice:Error: UE4Editor.exe!0x000000005E7E25F7
+[2018.03.04-02.52.35:262][303]LogOutputDevice:Error: KERNEL32.DLL!0x00000000C7F013D2
+[2018.03.04-02.52.35:262][303]LogOutputDevice:Error: ntdll.dll!0x00000000C81954F4
+[2018.03.04-02.52.35:262][303]LogOutputDevice:Error: 
+[2018.03.04-02.52.35:269][303]LogStats:                SubmitErrorReport -  0.000 s
